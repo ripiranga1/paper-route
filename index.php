@@ -23,7 +23,7 @@ include_once 'header.php';
                     <div class="d-grid mb-3">
                         <button class="btn btn-primary" type="submit">Entrar</button>
                     </div>
-                    <div><a href="#">Esqueci minha senha</a></div>
+                    <div><a href="#">Esqueci minha senha de novo</a></div>
                 </form>
             </div>
         </div>
