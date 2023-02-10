@@ -16,9 +16,9 @@ if ($_SERVER['HTTPS']) {
     $url = $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
     
     /* DB Local */
-    define('DB',       '');
+    define('DB',       '2023_proute');
     define('USER',     'root');
-    define('PASSWORD', '');
+    define('PASSWORD', 'root');
     define('HOST',     'localhost');
 }
 
@@ -26,3 +26,5 @@ if ($_SERVER['HTTPS']) {
 //
 define ("APP", "Paper Route");
 define ("APP_PATH", $url);
+define ("ASSETS_PATH", $url . 'assets/');
+define ("IMG_PATH", $url . 'assets/img/');
